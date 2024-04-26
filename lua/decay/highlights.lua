@@ -78,7 +78,7 @@ function M.highlight_all(colors, opts)
       CmpItemKindColor = { fg = colors.background, bg = colors.brightgreen },
       CmpItemKindTypeParameter = { fg = colors.background, bg = colors.brightgreen },
 
-      MatchParen = {fg = colors.background, bg = colors.blue},
+      MatchParen = { fg = colors.background, bg = colors.blue },
     }
   else
     M.bulk_hi {
@@ -91,6 +91,7 @@ function M.highlight_all(colors, opts)
       CmpItemAbbrMatchFuzzy = { fg = colors.blue },
       CmpItemKind = { fg = colors.blue },
       CmpItemMenu = { fg = colors.green },
+      MatchParen = { fg = colors.background, bg = colors.blue },
     }
   end
 
