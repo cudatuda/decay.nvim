@@ -80,7 +80,7 @@ function M.highlight_all(colors, opts)
 
       MatchParen = { fg = colors.background, bg = colors.blue },
 
-      FloatBorder = { guifg = colors.foreground },
+      FloatBorder = { fg = colors.foreground },
     }
   else
     M.bulk_hi {
@@ -94,7 +94,7 @@ function M.highlight_all(colors, opts)
       CmpItemKind = { fg = colors.blue },
       CmpItemMenu = { fg = colors.green },
       MatchParen = { fg = colors.background, bg = colors.blue },
-      FloatBorder = { guifg = colors.foreground },
+      FloatBorder = { fg = colors.foreground },
     }
   end
 
