@@ -80,7 +80,7 @@ function M.highlight_all(colors, opts)
 
       MatchParen = { fg = colors.background, bg = colors.blue },
 
-      MiniFilesBorder = { fg = colors.foreground, bg = colors.background },
+      FloatBorder = { fg = colors.foreground, bg = colors.background },
     }
   else
     M.bulk_hi {
