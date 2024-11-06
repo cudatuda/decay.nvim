@@ -80,7 +80,7 @@ function M.highlight_all(colors, opts)
 
       MatchParen = { fg = colors.background, bg = colors.blue },
 
-      FloatBorder = { fg = colors.foreground, bg = colors.background },
+      FloatBorder = { guifg = colors.foreground },
     }
   else
     M.bulk_hi {
