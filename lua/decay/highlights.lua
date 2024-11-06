@@ -79,6 +79,8 @@ function M.highlight_all(colors, opts)
       CmpItemKindTypeParameter = { fg = colors.background, bg = colors.brightgreen },
 
       MatchParen = { fg = colors.background, bg = colors.blue },
+
+      MiniFilesBorder = { fg = colors.foreground, bg = colors.background },
     }
   else
     M.bulk_hi {
