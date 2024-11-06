@@ -94,6 +94,7 @@ function M.highlight_all(colors, opts)
       CmpItemKind = { fg = colors.blue },
       CmpItemMenu = { fg = colors.green },
       MatchParen = { fg = colors.background, bg = colors.blue },
+      FloatBorder = { guifg = colors.foreground },
     }
   end
 
